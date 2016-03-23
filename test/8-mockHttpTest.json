@@ -1,0 +1,18 @@
+{
+	"source": [
+		"src/models/config.c",
+		"src/models/route.c",
+		"src/helpers/handler.c",
+		"src/helpers/wrapper.c",
+		"lib/http-parser/http_parser.c",
+		"lib/cJSON/cJSON.c",
+		"lib/safeTo/safeTo.c"
+	],
+	
+	"param": [
+		"-lm",
+		"$(mysql_config --libs)",
+		"$(mysql_config --cflags)",
+		"-DHTTP_PARSER_STRICT=0"
+	]
+}

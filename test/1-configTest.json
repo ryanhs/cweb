@@ -1,0 +1,11 @@
+{
+	"source": [
+		"src/models/config.c",
+		"lib/cJSON/cJSON.c",
+		"lib/safeTo/safeTo.c"
+	],
+	
+	"param": [
+		"-lm"
+	]
+}

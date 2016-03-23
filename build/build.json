@@ -1,0 +1,31 @@
+{
+	"output": "api.run",
+	
+	"source": [
+		"src/models/config.c",
+		"src/models/route.c",
+		
+		"src/helpers/signal.c",
+		"src/helpers/wrapper.c",
+		"src/helpers/handler.c",
+		
+		"src/methods/util.c",
+		
+		"src/childs/http.c",
+		"src/childs/dataRefresher.c",
+		
+		"src/main.c",
+		
+		"lib/http-parser/http_parser.c",
+		"lib/cJSON/cJSON.c",
+		"lib/safeTo/safeTo.c"
+	],
+	
+	"param": [
+		"-lm",
+		"-lpthread",
+		"$(mysql_config --libs)",
+		"$(mysql_config --cflags)",
+		"-DHTTP_PARSER_STRICT=0"
+	]
+}

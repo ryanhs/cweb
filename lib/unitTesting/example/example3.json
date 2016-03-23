@@ -1,0 +1,9 @@
+{
+	"source": [
+		"inc/foobar.c"
+	],
+	
+	"param": [
+		"-lm"
+	]
+}

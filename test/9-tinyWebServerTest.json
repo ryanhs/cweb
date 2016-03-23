@@ -1,0 +1,16 @@
+{
+	"source": [
+		"src/models/config.c",
+		"src/models/route.c",
+		"src/helpers/handler.c",
+		"lib/http-parser/http_parser.c",
+		"lib/cJSON/cJSON.c",
+		"lib/safeTo/safeTo.c"
+	],
+	
+	"param": [
+		"-lm",
+		"-lpthread",
+		"-DHTTP_PARSER_STRICT=0"
+	]
+}

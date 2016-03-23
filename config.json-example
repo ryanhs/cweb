@@ -1,0 +1,15 @@
+{
+	"debug": true,
+	
+	"http_host": "127.0.0.1",
+	"http_port": 3000,
+	"http_worker": 4,
+	
+	"mysql_use_unix_socket": true,
+	"mysql_host": "127.0.0.1",
+	"mysql_port": 3306,
+	"mysql_sock": "/var/run/mysqld/mysqld.sock",
+	"mysql_user": "root",
+	"mysql_pass": "",
+	"mysql_name": "ppdb2015-dev"
+}

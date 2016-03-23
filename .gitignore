@@ -1,0 +1,22 @@
+# default gitignore for nodes
+/log/
+*.log
+
+# config
+config.json
+
+# build artifact
+/build/*.o
+/build/*.out
+/build/*.run
+config.json
+
+# testing
+/test/*.o
+/test/*.out
+
+# generated 
+#src/generated.c
+
+
+nohup.out
