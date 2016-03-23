@@ -1,4 +1,4 @@
-# PPDB API
+# Web Server (API Apps/application) in pure C
 
 ## documentation
 
