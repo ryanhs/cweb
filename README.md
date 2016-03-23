@@ -2,6 +2,15 @@
 
 ## documentation
 
+this web server implement API server with following conditions:
+- use JSON RPC as its API format
+- use thread for its server (http_worker)
+
+and following library:
+- cJSON
+- http-parser
+
+
 this API using JSON-RPC as data format.
 please learn it before continue in this documentation.
 for limit and offset it use same concept as in sql limit and offset
