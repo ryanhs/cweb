@@ -41,10 +41,10 @@ example:
 	{
 		"jsonrpc": "2.0",
 		"result": {
-			id: 1,
-			code: 1001,
-			name: 'SDN Gegerkalong KPAD',
-			level: 'elementary' 
+			"id": 1,
+			"code": 1001,
+			"name": "SDN Gegerkalong KPAD",
+			"level": "elementary" 
 		}, 
 		"id": 12131
 	}
